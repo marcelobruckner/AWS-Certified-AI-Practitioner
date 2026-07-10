@@ -1,130 +1,305 @@
-# AWS Certified AI Practitioner
+# AWS Certified AI Practitioner (AIF-C01)
 
-Repositorio de estudos para a certificacao **AWS Certified AI Practitioner (AIF-C01)**.
+> Um guia completo, gratuito e open source para preparação da certificação **AWS Certified AI Practitioner (AIF-C01)**.
 
-O objetivo deste material e organizar os estudos de IA, IA generativa, servicos AWS de AI/ML, Responsible AI, seguranca e simulados, mantendo os resumos em arquivos separados e uma trilha clara de revisao.
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![AWS](https://img.shields.io/badge/AWS-AIF--C01-FF9900)
 
-## Sobre a certificacao
+---
 
-A certificacao AWS Certified AI Practitioner e de nivel fundamental e valida conhecimentos sobre conceitos de inteligencia artificial, machine learning, IA generativa, foundation models, servicos AWS relacionados, praticas de IA responsavel, seguranca, compliance e governanca.
+# 📖 Sobre o projeto
 
-Formato da prova:
+Este repositório reúne um guia completo para preparação da certificação **AWS Certified AI Practitioner (AIF-C01)**.
 
-- 65 questoes
-- 50 questoes pontuadas e 15 questoes nao pontuadas
-- 90 minutos
-- Nota minima: 700 de 1000
-- Codigo do exame: AIF-C01
-- Tipos de questao: multipla escolha, multipla resposta, ordenacao e associacao
+O conteúdo foi desenvolvido para explicar os conceitos fundamentais de Inteligência Artificial, IA Generativa e dos serviços de IA da AWS de forma progressiva, utilizando exemplos práticos, diagramas, estudos de caso, laboratórios e questões comentadas.
 
-Dominios principais:
+Todo o material é organizado em módulos independentes e segue uma sequência de aprendizado que parte dos fundamentos até a aplicação prática dos serviços da AWS.
 
-- Fundamentos de IA e Machine Learning
-- Fundamentos de IA Generativa
-- Aplicacoes de Foundation Models
-- IA Responsavel
-- Seguranca, Compliance e Governanca
+---
 
-## Estrutura do repositorio
+# 🎯 Objetivos
+
+Ao concluir este guia você será capaz de:
+
+- compreender os fundamentos da Inteligência Artificial;
+- diferenciar IA, Machine Learning e Deep Learning;
+- entender o funcionamento dos Large Language Models (LLMs);
+- dominar os principais conceitos de IA Generativa;
+- compreender os serviços de IA da AWS;
+- aplicar os conceitos em cenários reais;
+- desenvolver o raciocínio exigido na certificação;
+- preparar-se para aprovação na AWS Certified AI Practitioner (AIF-C01).
+
+---
+
+# 👨‍💻 Público-alvo
+
+Este material foi desenvolvido para:
+
+- Desenvolvedores
+- Arquitetos de Software
+- Engenheiros Cloud
+- Engenheiros DevOps
+- Administradores de Sistemas
+- Profissionais de Dados
+- Estudantes
+- Candidatos à certificação AWS Certified AI Practitioner
+
+Não é necessário possuir experiência anterior em Machine Learning.
+
+---
+
+# 🗺️ Roadmap de Estudos
 
 ```text
-.
-├── README.md
-├── planejamento.md
-└── conceitos/
-    └── IA x Machine Learning x Deep Learning.md
+Fundamentos de IA
+        │
+        ▼
+Funcionamento dos LLMs
+        │
+        ▼
+Prompt Engineering
+        │
+        ▼
+Personalização de Modelos
+        │
+        ▼
+Inferência
+        │
+        ▼
+Serviços AWS
+        │
+        ▼
+Laboratórios
+        │
+        ▼
+Simulados
 ```
 
-Arquivos principais:
+---
 
-- [planejamento.md](./planejamento.md): plano de estudo completo, com cronograma, ordem dos temas, servicos prioritarios e estrategia para simulados.
-- [conceitos/](./conceitos): resumos conceituais usados como base para a prova.
+# 📚 Estrutura do Repositório
 
-## Trilha de estudo
+```text
+AWS-Certified-AI-Practitioner/
+│
+├── README.md
+├── SUMMARY.md
+├── LICENSE
+│
+├── chapters/
+│   ├── 01-ia-machine-learning-deep-learning.md
+│   ├── 02-ia-generativa.md
+│   ├── 03-llms.md
+│   ├── 04-foundation-models.md
+│   ├── 05-tokens.md
+│   ├── 06-embeddings.md
+│   ├── 07-vector-search.md
+│   ├── 08-context-window.md
+│   ├── 09-prompt-engineering.md
+│   ├── 10-hallucinations.md
+│   ├── 11-fine-tuning.md
+│   ├── 12-rag.md
+│   ├── 13-temperature.md
+│   ├── 14-top-k.md
+│   └── 15-top-p.md
+│
+├── services/
+│   ├── amazon-bedrock.md
+│   ├── amazon-sagemaker.md
+│   ├── amazon-q.md
+│   ├── amazon-rekognition.md
+│   ├── amazon-comprehend.md
+│   ├── amazon-textract.md
+│   ├── amazon-transcribe.md
+│   ├── amazon-translate.md
+│   ├── amazon-polly.md
+│   ├── amazon-lex.md
+│   └── amazon-kendra.md
+│
+├── labs/
+│   ├── lab-01-bedrock-chatbot.md
+│   ├── lab-02-rag.md
+│   ├── lab-03-prompt-engineering.md
+│   └── lab-04-document-analysis.md
+│
+├── practice-exams/
+│   ├── simulado-01.md
+│   ├── simulado-02.md
+│   ├── simulado-03.md
+│   └── questoes-comentadas.md
+│
+├── glossary.md
+└── references.md
+```
 
-A ordem recomendada para estudar e:
+---
 
-1. Conceitos de IA
-2. IA Generativa
-3. Prompt Engineering
-4. Amazon Bedrock
-5. Amazon SageMaker
-6. Amazon Q
-7. Servicos tradicionais de IA da AWS
-8. Responsible AI
-9. Seguranca, compliance e governanca
-10. Simulados
+# 📘 Conteúdo
 
-## Plano sugerido
+## Módulo 1 — Fundamentos da Inteligência Artificial
 
-O planejamento principal esta dividido em 4 semanas:
+| Capítulo | Tema |
+|----------|------|
+| 01 | IA x Machine Learning x Deep Learning |
+| 02 | IA Generativa |
+| 03 | Large Language Models (LLMs) |
+| 04 | Foundation Models |
 
-- **Semana 1:** base conceitual de IA, ML, Deep Learning, GenAI, LLMs, tokens, embeddings, RAG, fine-tuning e prompt engineering.
-- **Semana 2:** servicos AWS, com foco em quando usar, quando nao usar e como diferenciar servicos parecidos.
-- **Semana 3:** Responsible AI, seguranca, privacidade, governanca, IAM, KMS, CloudTrail, compliance e controles de protecao.
-- **Semana 4:** simulados, revisao de erros e reforco dos pontos fracos.
+---
 
-Para um ciclo mais intenso, o plano tambem pode ser condensado em 21 dias:
+## Módulo 2 — Funcionamento dos LLMs
 
-- **Dias 1-7:** conceitos de IA e IA generativa.
-- **Dias 8-14:** servicos AWS de IA e Machine Learning.
-- **Dias 15-21:** simulados intensivos e revisao dos erros.
+| Capítulo | Tema |
+|----------|------|
+| 05 | Tokens |
+| 06 | Embeddings |
+| 07 | Busca Vetorial |
+| 08 | Context Window |
 
-## Servicos AWS prioritarios
+---
 
-Prioridade maxima:
+## Módulo 3 — Engenharia de Prompt
+
+| Capítulo | Tema |
+|----------|------|
+| 09 | Prompt Engineering |
+| 10 | Hallucinations |
+
+---
+
+## Módulo 4 — Personalização de Modelos
+
+| Capítulo | Tema |
+|----------|------|
+| 11 | Fine-tuning |
+| 12 | Retrieval-Augmented Generation (RAG) |
+
+---
+
+## Módulo 5 — Inferência
+
+| Capítulo | Tema |
+|----------|------|
+| 13 | Temperature |
+| 14 | Top-K |
+| 15 | Top-P |
+
+---
+
+## Módulo 6 — Serviços AWS
 
 - Amazon Bedrock
 - Amazon SageMaker
 - Amazon Q
-
-Tambem merecem atencao:
-
 - Amazon Rekognition
-- Amazon Comprehend
 - Amazon Textract
+- Amazon Comprehend
 - Amazon Transcribe
 - Amazon Translate
 - Amazon Polly
 - Amazon Lex
 - Amazon Kendra
-- Amazon Personalize
 
-Para cada servico, o estudo deve responder:
+---
 
-- O que o servico faz?
-- Quando usar?
-- Quando nao usar?
-- Qual servico AWS pode ser confundido com ele?
+## Módulo 7 — Laboratórios
 
-## Comparacoes importantes
+Laboratórios práticos para aplicação dos conceitos utilizando serviços da AWS.
 
-A prova costuma cobrar cenarios que exigem diferenciar conceitos proximos. Priorize estas comparacoes:
+---
 
-- IA x Machine Learning x Deep Learning
-- Fine-tuning x RAG
-- Embedding x Prompt
-- Token x Context Window
-- Hallucination x Bias
-- Bedrock x SageMaker
-- Foundation Model x modelo treinado pelo cliente
+## Módulo 8 — Simulados
 
-## Rotina diaria sugerida
+Questões comentadas organizadas por domínio da certificação e simulados completos.
 
-Para um ritmo de aproximadamente 2 horas por dia:
+---
 
-- 30 minutos de teoria
-- 45 minutos de videos ou documentacao oficial
-- 45 minutos de questoes
+# 📖 Estrutura dos Capítulos
 
-Nos ultimos 3 dias antes da prova, a recomendacao e evitar conteudo novo e focar em:
+Todos os capítulos seguem o mesmo padrão.
 
-- Revisao dos resumos
-- Revisao dos erros
-- Dois simulados completos
-- Descanso adequado
+- Objetivos de aprendizagem
+- Introdução
+- Conceitos fundamentais
+- Como funciona
+- Diagramas
+- Exemplos do mundo real
+- Exemplos utilizando AWS
+- Exemplos relacionados ao desenvolvimento de software
+- Quando utilizar
+- Quando não utilizar
+- Comparações
+- Pegadinhas da certificação
+- Erros comuns
+- Questões comentadas
+- Resumo
+- Glossário
+- Referências
 
-## Fontes oficiais
+---
 
-- [AWS Certified AI Practitioner](https://aws.amazon.com/pt/certification/certified-ai-practitioner/)
-- [Exam Guide AWS Certified AI Practitioner](https://docs.aws.amazon.com/pt_br/aws-certification/latest/ai-practitioner-01/ai-practitioner-01.html)
+# 🚀 Como utilizar este guia
+
+A leitura recomendada segue a sequência dos módulos.
+
+```text
+Fundamentos
+        │
+        ▼
+LLMs
+        │
+        ▼
+Prompt Engineering
+        │
+        ▼
+Fine-tuning e RAG
+        │
+        ▼
+Inferência
+        │
+        ▼
+Serviços AWS
+        │
+        ▼
+Laboratórios
+        │
+        ▼
+Simulados
+```
+
+---
+
+# 📚 Referências
+
+Este projeto utiliza como principais referências:
+
+- AWS Certified AI Practitioner Exam Guide
+- AWS Skill Builder
+- AWS Documentation
+- Amazon Bedrock Documentation
+- Amazon SageMaker Documentation
+- AWS Well-Architected Framework
+
+---
+
+# 🤝 Contribuindo
+
+Contribuições são bem-vindas.
+
+Caso encontre algum erro ou tenha sugestões de melhoria, abra uma **Issue** ou envie um **Pull Request**.
+
+---
+
+# 📄 Licença
+
+Este projeto está licenciado sob a licença **MIT**.
+
+---
+
+# ⭐ Apoie o projeto
+
+Se este material foi útil para você, deixe uma ⭐ no repositório.
+
+Isso ajuda outras pessoas que também estão estudando para a certificação.
