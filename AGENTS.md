@@ -13,6 +13,7 @@ O material deve evoluir como um guia completo e progressivo, com capítulos conc
 - Explicar conceitos com linguagem didática, progressiva e prática.
 - Priorizar exemplos úteis para desenvolvedores, arquitetos, profissionais cloud, DevOps e pessoas estudando para certificação.
 - Evitar tradução forçada de nomes de serviços AWS.
+- Não usar emojis em títulos, tabelas, exemplos, chamadas de atenção ou qualquer outro conteúdo do projeto.
 
 ## Estrutura planejada
 
@@ -136,4 +137,3 @@ Domínios:
 - Ao expandir o guia, manter links internos coerentes com os arquivos reais.
 - Ao reorganizar pastas, atualizar `README.md` e `SUMMARY.md` na mesma alteração.
 - Evitar conteúdo genérico demais: o foco é preparação prática para a AWS Certified AI Practitioner.
-

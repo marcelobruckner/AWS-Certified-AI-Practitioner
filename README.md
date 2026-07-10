@@ -8,7 +8,7 @@
 
 ---
 
-# 📖 Sobre o projeto
+# Sobre o projeto
 
 Este repositório reúne um guia completo para preparação da certificação **AWS Certified AI Practitioner (AIF-C01)**.
 
@@ -18,7 +18,7 @@ Todo o material é organizado em módulos independentes e segue uma sequência d
 
 ---
 
-# 🎯 Objetivos
+# Objetivos
 
 Ao concluir este guia você será capaz de:
 
@@ -33,7 +33,7 @@ Ao concluir este guia você será capaz de:
 
 ---
 
-# 👨‍💻 Público-alvo
+# Público-alvo
 
 Este material foi desenvolvido para:
 
@@ -50,7 +50,7 @@ Não é necessário possuir experiência anterior em Machine Learning.
 
 ---
 
-# 🗺️ Roadmap de Estudos
+# Roadmap de Estudos
 
 ```text
 Fundamentos de IA
@@ -79,7 +79,7 @@ Simulados
 
 ---
 
-# 📚 Estrutura do Repositório
+# Estrutura do Repositório
 
 ```text
 AWS-Certified-AI-Practitioner/
@@ -136,7 +136,7 @@ AWS-Certified-AI-Practitioner/
 
 ---
 
-# 📘 Conteúdo
+# Conteúdo
 
 ## Módulo 1 — Fundamentos da Inteligência Artificial
 
@@ -216,7 +216,7 @@ Questões comentadas organizadas por domínio da certificação e simulados comp
 
 ---
 
-# 📖 Estrutura dos Capítulos
+# Estrutura dos Capítulos
 
 Todos os capítulos seguem o mesmo padrão.
 
@@ -240,7 +240,7 @@ Todos os capítulos seguem o mesmo padrão.
 
 ---
 
-# 🚀 Como utilizar este guia
+# Como utilizar este guia
 
 A leitura recomendada segue a sequência dos módulos.
 
@@ -271,7 +271,7 @@ Simulados
 
 ---
 
-# 📚 Referências
+# Referências
 
 Este projeto utiliza como principais referências:
 
@@ -284,7 +284,7 @@ Este projeto utiliza como principais referências:
 
 ---
 
-# 🤝 Contribuindo
+# Contribuindo
 
 Contribuições são bem-vindas.
 
@@ -292,14 +292,14 @@ Caso encontre algum erro ou tenha sugestões de melhoria, abra uma **Issue** ou 
 
 ---
 
-# 📄 Licença
+# Licença
 
 Este projeto está licenciado sob a licença **MIT**.
 
 ---
 
-# ⭐ Apoie o projeto
+# Apoie o projeto
 
-Se este material foi útil para você, deixe uma ⭐ no repositório.
+Se este material foi útil para você, deixe uma estrela no repositório.
 
 Isso ajuda outras pessoas que também estão estudando para a certificação.

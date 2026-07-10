@@ -339,7 +339,7 @@ Esse conjunto recebe o nome de **dataset**.
 
 Quanto melhor a qualidade dos dados, melhor tende a ser o modelo treinado.
 
-> 💡 **Importante**
+> **Importante**
 >
 > Em Machine Learning costuma-se dizer:
 >
@@ -450,9 +450,9 @@ Exemplo:
 
 | Imagem | Categoria |
 |---------|-----------|
-| 🐶 | Cachorro |
-| 🐱 | Gato |
-| 🚗 | Carro |
+| Imagem de cachorro | Cachorro |
+| Imagem de gato | Gato |
+| Imagem de carro | Carro |
 
 O algoritmo aprende observando exemplos já classificados.
 
