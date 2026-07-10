@@ -1,5 +1,4 @@
-# Capítulo 1
-# Inteligência Artificial, Machine Learning e Deep Learning
+# Capítulo 1 — Inteligência Artificial, Machine Learning e Deep Learning
 
 ---
 
@@ -965,6 +964,96 @@ Evite quando:
 
 ---
 
+# Exemplos Usando AWS
+
+A certificação AWS Certified AI Practitioner costuma cobrar a capacidade de associar o problema à abordagem correta e, depois, ao serviço AWS mais adequado.
+
+## Sistema baseado em regras na AWS
+
+Uma empresa pode implementar regras conhecidas usando uma aplicação tradicional em serviços como AWS Lambda, Amazon API Gateway, Amazon EventBridge ou uma aplicação própria em containers.
+
+Exemplo:
+
+```text
+Pedido recebido
+
+↓
+
+Regra de negócio
+
+↓
+
+Se valor > limite aprovado, bloquear pedido
+```
+
+Nesse caso, não é necessário treinar um modelo. A regra é explícita, auditável e previsível.
+
+## Machine Learning com Amazon SageMaker AI
+
+Quando a empresa possui dados históricos e deseja treinar, avaliar e implantar um modelo próprio, **Amazon SageMaker AI** é o serviço mais associado a Machine Learning tradicional na prova.
+
+Exemplo:
+
+```text
+Histórico de clientes
+
+↓
+
+Treinamento no Amazon SageMaker AI
+
+↓
+
+Modelo de previsão de churn
+
+↓
+
+Inferência para novos clientes
+```
+
+Pense em SageMaker AI quando o cenário indicar construção, treinamento, ajuste, implantação ou operação de modelos próprios de ML.
+
+## Deep Learning com Amazon Rekognition
+
+Quando o problema envolve análise de imagens ou vídeos, a AWS normalmente oferece serviços gerenciados que escondem a complexidade do Deep Learning.
+
+Exemplo:
+
+```text
+Imagem no Amazon S3
+
+↓
+
+Amazon Rekognition
+
+↓
+
+Objetos, rostos, texto ou conteúdo impróprio detectados
+```
+
+Nesse cenário, a aplicação usa Deep Learning por trás do serviço, mas o usuário não precisa construir nem treinar a rede neural.
+
+## IA Generativa com Amazon Bedrock
+
+Quando o objetivo é usar Foundation Models para gerar texto, resumir conteúdo, criar respostas conversacionais ou construir aplicações generativas, o serviço central na AWS é **Amazon Bedrock**.
+
+Exemplo:
+
+```text
+Prompt do usuário
+
+↓
+
+Foundation Model no Amazon Bedrock
+
+↓
+
+Resposta gerada
+```
+
+Para este capítulo, o ponto principal é lembrar que aplicações modernas de IA Generativa são baseadas em Deep Learning e Foundation Models.
+
+---
+
 # Como a AWS cobra esse tema
 
 A AWS raramente pergunta definições diretamente.
@@ -1063,8 +1152,6 @@ O desenvolvedor continua responsável por:
 Falso.
 
 Com poucos dados, Machine Learning tradicional costuma ser mais adequado.
-
----
 
 ---
 
@@ -1559,12 +1646,12 @@ Modelo computacional inspirado no funcionamento dos neurônios biológicos, util
 
 A elaboração deste capítulo foi baseada nas seguintes referências oficiais:
 
-- AWS Certified AI Practitioner (AIF-C01) Exam Guide
-- AWS Skill Builder – AI Practitioner Learning Plan
-- AWS Documentation – Artificial Intelligence
-- AWS Documentation – Machine Learning
-- Amazon SageMaker Developer Guide
-- Amazon Bedrock User Guide
+- [AWS Certified AI Practitioner (AIF-C01) Exam Guide](https://docs.aws.amazon.com/pt_br/aws-certification/latest/ai-practitioner-01/ai-practitioner-01.html)
+- [Artificial Intelligence on AWS](https://aws.amazon.com/ai/)
+- [Machine Learning on AWS](https://aws.amazon.com/ai/machine-learning/)
+- [Amazon SageMaker AI Developer Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html)
+- [Amazon Bedrock User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html)
+- [Amazon Rekognition Developer Guide](https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html)
 
 Complementarmente, foram consultadas obras clássicas da área para fundamentação conceitual:
 
@@ -1578,7 +1665,9 @@ Complementarmente, foram consultadas obras clássicas da área para fundamentaç
 
 No próximo capítulo será apresentado um dos temas centrais da certificação AWS Certified AI Practitioner:
 
-# IA Generativa
+## IA Generativa
+
+Arquivo planejado: `chapters/02-ia-generativa.md`.
 
 Você aprenderá:
 
