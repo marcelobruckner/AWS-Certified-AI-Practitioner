@@ -8,6 +8,12 @@
 
 ---
 
+# Foco de portfólio
+
+Este repositório demonstra organização de conteúdo técnico, estudo estruturado de cloud e IA generativa, documentação em Markdown e construção de material educacional aberto. Além de apoiar a preparação para certificação, ele mostra capacidade de transformar temas complexos em trilhas de aprendizado progressivas.
+
+---
+
 # Sobre o projeto
 
 Este repositório reúne um guia completo para preparação da certificação **AWS Certified AI Practitioner (AIF-C01)**.
